@@ -21,8 +21,10 @@ class Crawler():
         print(url)
         self.scanned_list.append(url)
         request = requests.get(url)
+        request.encoding = 'utf-8'
         html = request.text
         soup = BeautifulSoup(html)
+
         try:
             self.save_soup(session, soup, url)
         except Exception as e:
@@ -82,7 +84,7 @@ def main():
     engine = create_engine("sqlite:///searchengine.db")
     Base.metadata.create_all(engine)
     session = Session(bind=engine)
-    crawler = Crawler("abv.bg")
+    crawler = Crawler("24chasa.bg")
     crawler.save_website(session)
     crawler.scan_website(session)
 

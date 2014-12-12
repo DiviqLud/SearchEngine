@@ -1,0 +1,38 @@
+h1 {
+    color: #B1B9BA;
+    font-size: 48;
+    margin-left: 500px;
+}
+body {
+    background-image: url("footer_lodyas.png");
+    background-position: center;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #7AE4F0;
+}
+
+#container {
+    width: 80%;
+}
+
+#description {
+    color: #B1B9BA;
+}
+
+#navigation {
+    list-style-type: none;
+}
+
+#navigation li {
+    display: inline;
+    margin-left: 50px;
+}

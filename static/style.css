@@ -1,0 +1,36 @@
+h1 {
+    font-size: 60;
+    position: relative;
+    top: 50px;
+    left: 420px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    overflow: hidden;
+    opacity: 0.5;
+}
+body {
+    background-image: url("Austere-gray-desktop-background-Wallpaper.jpg");
+    background-position: center;
+}
+
+#button_id {
+    font-weight: 700;
+    font-size: 16;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    left: 340px;
+    top: 20px;
+}
+
+#text_field {
+    height: 30px;
+    width: 500px;
+    position: relative;
+    left: 320px;
+    top: 20px;
+}
+
+#name_of_engine {
+    margin-top: 120px;
+}
